@@ -46,14 +46,39 @@
   letter-spacing: -2%;
   color: #f3f1eb;
 }
-#contTexto {
+#cidade {
   position: relative;
   text-align: center;
   padding-top: 33px;
-  width: 1924px;
-  height: 1069px;
+  width: 1803px;
+  height: 976px;
 }
-
+@media screen and (max-width: 1440px) {
+  #cidade {
+    position: relative;
+    text-align: center;
+    padding-top: 33px;
+    width: 500px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  #greatness {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  #cidade {
+    position: relative;
+    text-align: center;
+    padding-top: 33px;
+    width: 250px;
+    height: 125px;
+  }
+  #greatness {
+    font-size: 13px;
+  }
+}
 /*#drive {
   font-size: 100px;
   font-weight: bold;
