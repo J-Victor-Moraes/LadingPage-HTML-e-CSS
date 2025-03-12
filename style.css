@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#body {
+  background-color: #0a0a0b;
+  margin: 60px;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  width: 223px;
+  height: 60px;
+}
+#menu {
+  width: 60px;
+  height: 60px;
+}
+#contBarras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  margin-left: 13px;
+}
+
+.barra {
+  width: 25px;
+  height: 4px;
+  background: #0a0a0b;
+}
