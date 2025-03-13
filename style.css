@@ -49,43 +49,115 @@
 #cidade {
   position: relative;
   text-align: center;
-  padding-top: 33px;
   width: 1803px;
+  padding-top: 33px;
+  max-width: 100%;
   height: 976px;
 }
-@media screen and (max-width: 1440px) {
-  #cidade {
-    position: relative;
-    text-align: center;
-    padding-top: 33px;
-    width: 500px;
-    height: 250px;
+#part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 47px;
+  padding-top: 0px;
+}
+.partText {
+  color: #f3f1eb;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+#photosUm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 36px;
+}
+#photoUm {
+  max-width: 30%;
+  width: 580px;
+  height: 425.03125px;
+  mix-blend-mode: Luminosity;
+}
+#photoDois {
+  max-width: 40%;
+  width: 580px;
+  height: 610.8125px;
+  mix-blend-mode: Luminosity;
+}
+#photoTres {
+  max-width: 30%;
+  width: 580px;
+  height: 425.03125px;
+  mix-blend-mode: Luminosity;
+}
+#secTres {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+  padding-top: 80px;
+  max-width: 100%;
+  height: 412px;
+}
+#secTresUm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  height: 100%;
+  width: 580px;
+  border-bottom: 2px solid #ffffff;
+}
+#our {
+  font-family: Staff X Condensed Test;
+  font-weight: 700;
+  font-size: 50px;
+  color: #f3f1eb;
+}
+#view {
+  width: 221px;
+  height: 49px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 75px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+#secTresDois {
+  padding-bottom: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 1169px;
+  border-bottom: 2px solid #ffffff;
+}
+#story {
+  font-family: Space;
+  font-weight: 500;
+  font-size: 3vw;
+  line-height: 53px;
+  text-indent: 200px;
+  letter-spacing: -5%;
+  color: #f3f1eb;
+}
+@media screen and (max-width: 700px) {
+  #story {
+    line-height: 30px;
   }
 }
-@media screen and (max-width: 1120px) {
-  #greatness {
-    font-size: 29px;
+@media screen and (max-width: 320px) {
+  #story {
+    text-indent: 100px;
   }
 }
-@media screen and (max-width: 1120px) {
-  #cidade {
-    position: relative;
-    text-align: center;
-    padding-top: 33px;
-    width: 250px;
-    height: 125px;
-  }
-  #greatness {
-    font-size: 13px;
-  }
-}
-/*#drive {
-  font-size: 100px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background: url("cidade.png") no-repeat center;
-  background-size: cover;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-*/
