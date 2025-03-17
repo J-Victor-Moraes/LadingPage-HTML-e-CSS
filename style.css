@@ -161,3 +161,66 @@
     text-indent: 100px;
   }
 }
+#secQuatro {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 200px;
+}
+#imgQuatroUm {
+  display: flex;
+  padding-top: 139px;
+  width: 580px;
+  height: 482px;
+  mix-blend-mode: Luminosity;
+}
+#secquatroUm {
+  display: flex;
+  flex-direction: column;
+}
+.denverCont {
+  display: flex;
+  position: absolute;
+  gap: 15px;
+}
+.denver {
+  font-family: "Staff XXX Condensed Test";
+  font-weight: 500;
+  font-size: 200px;
+  color: #ffffff;
+}
+.denverSg {
+  font-family: "Staff XX Condensed Test";
+  font-weight: 300;
+  font-size: 40px;
+  color: #f3f1eb;
+}
+.tocontoCont {
+  display: flex;
+  position: absolute;
+  gap: 15px;
+}
+.toronto {
+  padding-top: 180px;
+  font-family: "Staff XXX Condensed Test";
+  font-weight: 500;
+  font-size: 200px;
+  color: #ffffff;
+}
+.torontoSg {
+  font-family: "Staff XX Condensed Test";
+  font-weight: 300;
+  font-size: 40px;
+  color: #f3f1eb;
+}
+#imgQuatroDois {
+  display: flex;
+  padding-top: 925px;
+  width: 580px;
+  height: 387px;
+  mix-blend-mode: Luminosity;
+}
+@font-face {
+  font-family: "Staff XXX Condensed Test";
+  src: url(StaffXXCondensedTest-Regular.otf);
+}
